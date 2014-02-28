@@ -5,8 +5,12 @@
   height: 50px;
   bottom: 0;
   text-align: center;
-  padding-left: auto;
-  padding-right: auto;
+  left: 0;
+  right: 0;
+}
+#preview-bar ul {
+  margin-left: auto;
+  margin-right: auto;
 }
 #preview-bar li { float: left; }
 #preview-bar li:hover { 
