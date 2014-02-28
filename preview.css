@@ -8,16 +8,23 @@ body { padding-bottom: 60px; }
   text-align: center;
   left: 0;
   right: 0;
+  opacity: 0.5;
+}
+#preview-bar:hover {
+  opacity: 1.0;
+}
+#preview-bar:hover li {
+  background-color: rgba(90,90,90,0.8);
 }
 #preview-bar ul {
-  margin-left: auto;
-  margin-right: auto;
   list-style-type: none;
+  float: right;
+  margin-right:60px;
 }
 #preview-bar li { 
   float: left; 
   padding: 5px 15px;
 }
 #preview-bar li:hover { 
-  background-color: rgba(90,90,90,1);
+  opacity: 1.0
 }
