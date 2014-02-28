@@ -7,12 +7,9 @@
   text-align: center;
   padding-left: auto;
   padding-right: auto;
-  left: 0;
-  right: 0;
 }
 #preview-bar li { float: left; }
 #preview-bar li:hover { 
-  float: left; 
   background-color: rba(40,40,40,1);
-  
+ 
 }
