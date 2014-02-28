@@ -1,5 +1,5 @@
 #preview-bar {
-  background-color: rgba(40,40,40,0.5);
+  background-color: rgba(90,90,90,0.5);
   color: #222;
   position: fixed;
   height: 50px;
@@ -11,9 +11,13 @@
 #preview-bar ul {
   margin-left: auto;
   margin-right: auto;
+  list-style-type: none;
 }
-#preview-bar li { float: left; }
+#preview-bar li { 
+  float: left; 
+  padding: 5px 15px;
+}
 #preview-bar li:hover { 
-  background-color: rba(40,40,40,1);
+  background-color: rgba(90,90,90,1);
  
 }
