@@ -16,6 +16,12 @@ body { padding-bottom: 60px; }
 #preview-bar:hover li {
   background-color: rgba(90,90,90,0.8);
 }
+#preview-bar:hover li>a {
+  color: rgba(255,255,255,0.8);
+}
+#preview-bar li>a:hover {
+  color: navy;
+}
 #preview-bar ul {
   list-style-type: none;
   float: right;
