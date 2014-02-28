@@ -1,0 +1,15 @@
+#preview-bar {
+  background-color: rgba(40,40,40,0.5);
+  color: #222;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+#preview-bar li { float: left; }
+#preview-bar li:hover { 
+  background-color: rba(40,40,40,1);
+ 
+}
