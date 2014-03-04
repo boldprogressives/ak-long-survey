@@ -1,4 +1,4 @@
-body { padding-bottom: 60px; }
+body { padding-bottom: 60px; font-family: sans-serif; }
 #preview-bar {
   background-color: rgba(90,90,90,0.5);
   color: #222;
@@ -33,4 +33,11 @@ body { padding-bottom: 60px; }
 }
 #preview-bar li:hover { 
   opacity: 1.0
+}
+
+section { 
+  float: left; 
+  min-height: 500px; 
+  margin-top: 1px #888 solid; 
+  margin-bottom: 1px #888 solid;
 }
