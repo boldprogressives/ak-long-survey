@@ -1059,24 +1059,115 @@
           
           <label>
             <p>Candidate&rsquo;s direct contact information: (Name, Email, Phone, Address)</p>
-            <textarea name="action_nb_candidate_contact" placeholder=""></textarea>
+            <textarea name="action_nb_contact_candidate" placeholder=""></textarea>
           </label>
         
           <p>
             Please add contact information for any staff or consultants you may 
             have: (Name, Email, Phone)
           </p>
-          <ul>
-            <li>Campaign Manager</li>
-            <li>Advisor</li>
-            <li>Finance Director</li>
-            <li>Communications Director</li>
-            <li>Field Director</li>
-            <li>New Media</li>
-            <li>Media Consultant</li>
-            <li>Pollster</li>
-            <li>Direct Mail Consultant</li>
-            <li>Other</li>
+          <ul class="staff list-unstyled">
+            
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="campaign_manager" /> 
+                Campaign Manager
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_campaign_manager"></textarea>
+              </p>
+            </li>
+            
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="advisor" /> 
+                Advisor
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_advisor"></textarea>
+              </p>
+            </li>
+            
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="finance_director" /> 
+                Finance Director
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_finance_director"></textarea>
+              </p>
+            </li>
+
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="communications_director" /> 
+                Communications Director
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_communications_director"></textarea>
+              </p>
+            </li>
+
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="field_director" /> 
+                Field Director
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_field_director"></textarea>
+              </p>
+            </li>
+
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="new_media" /> 
+                New Media
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_new_media"></textarea>
+              </p>
+            </li>
+
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="media_consultant" /> 
+                Media Consultant
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_media_consultant"></textarea>
+              </p>
+            </li>
+            
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="pollster" /> 
+                Pollster
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_pollster"></textarea>
+              </p>
+            </li>
+            
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="direct_mail" /> 
+                Direct Mail Consultant
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_direct_mail"></textarea>
+              </p>
+            </li>
+            
+            <li>
+              <label>
+                <input type="checkbox" name="action_nb_has" value="other" /> 
+                Other
+              </label>
+              <p class="secondary-input">
+                <textarea name="action_nb_contact_other"></textarea>
+              </p>
+            </li>
+            
           </ul>
 
 				</div>
