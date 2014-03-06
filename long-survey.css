@@ -214,3 +214,6 @@ footer {
 
 }
 
+section input[type=text] {
+  clear: both;
+}
