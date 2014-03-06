@@ -219,3 +219,4 @@ section input[type=text] {
 }
 .house section { margin-bottom: 40px; }
 .house section > div.row:first-child { margin-top: 30px; }
+.no-js.house .btn { display: none;}
