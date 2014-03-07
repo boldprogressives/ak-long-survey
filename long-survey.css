@@ -29,12 +29,14 @@ header>img {
 	display: block;
 	width: 100%;
 	background-color: #1a85ab;
-	min-height: 143px;
+	text-align:center;
+	padding:20px;
 }
 
 #title h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #fff;
+	margin:0;
 }
 
 .long-survey-bg {
