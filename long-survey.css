@@ -192,18 +192,68 @@ textarea {
   display: inline-block;
 }
 
-
 footer {
-	display: block;
-	height: 100px;
 	margin-top: 50px;
+	padding:30px;
 	background-color: #052b47
 }
 
+footer ul{
+	padding-left:0;
+}
+
+footer li{
+	padding:5px;
+}
+
+footer ul a{
+	color:white;
+	list-style: none;
+	font-size: 13px;	
+}
+
+footer ul a:hover{
+	color:#b4c0c8;
+	text-decoration: none;
+}
+
+footer a img:hover{
+	opacity:0.75;
+}
+
+.btn-footer {
+color: #052b47;
+background-color: #fff;
+border: none;
+border-radius: 0;
+text-transform:uppercase;
+padding:7px 25px;
+}
+
+.btn-footer:hover {
+background-color: #b4c0c8;
+}
+
+
+.footer-btn-margin{
+	margin:5px;
+}
+
+.disclaimer{
+	color:white;
+	padding:7px;
+	border:1px solid #fff;
+	font-size:11px;
+	text-align: center;
+	margin: 20px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	
+.social-footer{
+	padding:0;
+}
 
 }
 
