@@ -39,6 +39,14 @@ header>img {
 	margin:0;
 }
 
+.section-title h2{
+	text-align:center;
+}
+
+.section-title aside{
+	text-align:center;
+}
+
 .long-survey-bg {
 	background-color: #ebebeb;
 	border: 1px solid #ccc;
@@ -87,6 +95,19 @@ border-top: 1px solid #ccc;
 
 label {
 	padding-left: 10px;
+	font-weight: 400;
+	width:100%;
+}
+
+.sm-note{
+	font-size:12px;
+	font-style: italic;	
+}
+
+input{
+	margin-top:5px;
+	padding:7px;
+	width:100%;
 }
 
 .pull {
@@ -234,7 +255,6 @@ padding:7px 25px;
 background-color: #b4c0c8;
 }
 
-
 .footer-btn-margin{
 	margin:5px;
 }
@@ -263,6 +283,14 @@ background-color: #b4c0c8;
   .pull {
   	float: right;
   }
+  
+  .section-title h2{
+	text-align:left;
+}
+
+.section-title aside{
+	text-align:left;
+}
 
 }
 
