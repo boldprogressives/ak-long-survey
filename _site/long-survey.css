@@ -307,6 +307,10 @@ section input[type=text] {
 }
 
 @media print{
+p{
+  width: 100%;
+  display:block;
+}
 
   #pccc-logo
     {
@@ -315,6 +319,14 @@ section input[type=text] {
 section{
 page-break-before: always;
 }
+
+input{
+  border: 0;
+  font-weight:600;
+}
+
+
+
 #print{
   display:block;
 }
