@@ -325,7 +325,9 @@ input{
   font-weight:600;
 }
 
-
+.page_title h2, .page_title h3{
+  text-align: center;
+}
 
 #print{
   display:block;
@@ -365,8 +367,16 @@ input[type=button], input[type=submit]{
   width: auto !important;
 }
 
+label.radio-inline, label.checkbox-inline{
+  width: auto;
+}
+
+input[type="radio"], input[type="checkbox"] {
+width: auto;
+}
+
 textarea{
-  display: none;
+  border: 0;
 }
 
 textarea:after{
@@ -376,10 +386,11 @@ textarea:after{
   height: 100px;
 }
 
+p, .options{
+  clear: both;
+  margin: 1.5em 0;
+  display:block;
 }
 
-@page :left {
-  @top-left {
-    content: "HERRO";
-  }
 }
+
