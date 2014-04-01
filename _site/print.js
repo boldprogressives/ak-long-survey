@@ -9,11 +9,14 @@ function update_all(){
     $('textarea, input[type=text]').each(function(){
       var input_name = $(this).attr('name');
       var answer = $(this).val();
-      $('#print').find("[name="+input_name+"]").after('<span class="print-'+input_name+'">Your response: '+answer+'</span>');
+      console.log($('#print-'+input_name).length);
+      if($('#print-'+input_name).length == 0){
+      $('#print').find("[name="+input_name+"]").after('<span id="print-'+input_name+'">Your response: '+answer+'</span>');
+      }
     });
 }
 
 function update_input(element){
 
-    $('#print').find(".print-"+element.attr('name')).html('Your response: '+element.val()+'</span>');
+    $('#print').find("#print-"+element.attr('name')).html('Your response: '+element.val()+'</span>');
 }
