@@ -1,19 +1,19 @@
 $(document).ready(function(){
-  update_inputs();
-  $(document).on("input", "input, textarea", null, function(){ update_inputs(); });
-    $(document).on("keyup", "input, textarea", null, function(){ update_inputs(); });
+  update_all();
+  $("input, textarea").on("input", null, function(){ update_input($(this)); });
+    $("input, textarea").on("keyup", null, function(){ update_input($(this)); });
   
 });
 
-function update_inputs(){
-    console.log('update!');
-    $('textarea, input').each(function(){
+function update_all(){
+    $('textarea, input[type=text]').each(function(){
       var input_name = $(this).attr('name');
-        var answer = $(this).val();
-        if($(".print-"+input_name).length > 0){
-            $(".print-"+input_name).html(answer);
-        } else {
-            $('#print').find("[name="+input_name+"]").after('<span class="print-'+input_name+'">Your response: '+answer+'</span>');
-        }
+      var answer = $(this).val();
+      $('#print').find("[name="+input_name+"]").after('<span class="print-'+input_name+'">Your response: '+answer+'</span>');
     });
+}
+
+function update_input(element){
+
+    $('#print').find(".print-"+element.attr('name')).html('Your response: '+element.val()+'</span>');
 }
