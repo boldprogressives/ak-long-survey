@@ -126,7 +126,7 @@ textarea {
 	border: 1px solid #bbb;
 }
 
-.next-btn {
+.next-btn, .print-btn {
 	width: 100%;
 	background-color: #1a86ab;
 	color: #fff;
@@ -205,10 +205,6 @@ textarea {
   background-color: #aaa;
   cursor: pointer;
 }
-
-
-
-
 
 .prog-active, .carousel-indicators .ak-progress.active {
   background-color: #052b47;
