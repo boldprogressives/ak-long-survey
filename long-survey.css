@@ -54,6 +54,10 @@ header>img {
 	padding:40px;
 }
 
+.long-survey-bg .item{
+  	background-color: #ebebeb;
+}
+
 aside {
 	font-weight: 600;
 	text-transform: uppercase;
@@ -281,9 +285,11 @@ background-color: #b4c0c8;
 	margin: 20px;
 }
 
-.carousel-inner > .item {
-    margin: 0 auto;
-}
+
+
+.carousel .item {-webkit-transition: opacity 1s; -moz-transition: opacity 1s; -ms-transition: opacity 1s; -o-transition: opacity 1s; transition: opacity 1s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
