@@ -1,0 +1,21 @@
+#completion-progress {
+  display: none;
+}
+input:not([type]), input[type=text] {
+  width: 400px;
+  height: 2em;
+}
+input[type=radio]:not([checked]) {
+  visibility: hidden;
+}
+input[type=submit], .btn, header {
+  display: none;
+}
+textarea {
+  width: 400px;
+  height: 400px;
+  page-break-before: avoid;
+}
+section {
+  page-break-after: always;
+}
